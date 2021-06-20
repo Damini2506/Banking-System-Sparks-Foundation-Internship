@@ -1,0 +1,68 @@
+body{
+	height: 100%;
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
+	color: #222;
+	margin: 0 auto;
+}
+
+.navbar{
+	background-color: #7FFFD4;
+	border-bottom-style: solid;
+}
+
+marquee{
+	margin-top:6px;
+	background-color: #00008B;
+	color: white;
+	height: 40px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+	padding-left: 70px;
+	padding-top: 120px;
+}
+
+footer{
+	background-color: #00008B;
+	color: #fff;
+}
+
+.btn{
+	width: 400px;
+	height: 70px;
+}
+
+.row{
+	border-top-style: solid;
+}
+
+#idel{
+	width: 120px;
+	height: 40px;
+}
+
+table{
+	Margin-top: 80px;
+
+
+}
+
+#t01{
+	text-align: center;
+}
+
+.form-control{
+ width: 600px;
+}
+
+.chibi{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+padding-left: 470px;
+padding-top: 50px;
+}
+   
