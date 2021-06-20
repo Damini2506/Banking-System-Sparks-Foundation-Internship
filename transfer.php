@@ -123,11 +123,7 @@
 	</body>
 </html>
 <?php
-	$server = "localhost";
-	$username = "root";
-	$password = "";
-	$dbname = "banking";
-	
+
 	$conn = mysqli_connect($server, $username, $password,$dbname);
 	
 	if(isset($_POST['submit'])){
@@ -162,13 +158,6 @@
 			if($run && $run_1){
 				echo "Money Transferred succesfully";
 			}
-			?>
-			<html>
-<body>
-</br></br>
-		<input type="submit" value="Transfer History" onclick="document.location = 'transferHistory.php'"/>
-</body>
-</html><?php
 			
 			}
 		else{
